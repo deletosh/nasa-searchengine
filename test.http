@@ -1,0 +1,11 @@
+### Mars Rover Photos
+GET  https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY
+
+### NASA Image and Video Library - without a search
+GET https://images-api.nasa.gov/search?q={q}
+
+### NASA Image and Video Library - with earth as query
+GET https://images-api.nasa.gov/search?q=earth
+
+### NASA Image and Video Library - with boston as query
+GET https://images-api.nasa.gov/search?q=boston
